@@ -26,3 +26,8 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+struct Post: Identifiable {
+    let id: String
+    let title: String
+}
